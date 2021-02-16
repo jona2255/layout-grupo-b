@@ -1,3 +1,34 @@
 * {
     box-sizing: border-box;
 }
+
+@media all and (min-width: 1300px){
+    body {
+        max-width: 1200px;
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1299px){
+    body {
+        max-width: 940px;
+    }
+}
+
+@media all and (min-width: 800px) and (max-width: 999px){
+    body {
+        max-width: 740px;
+    }
+}
+
+@media all and (min-width: 500px) and (max-width: 799px){
+    body {
+        max-width: 480px;
+    }
+}
+
+@media all and (max-width: 499px){
+    body {
+        max-width: 100vw;
+    }
+}
+
