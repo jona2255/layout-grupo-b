@@ -4,11 +4,15 @@
     padding: 0;
 }
 .cuerpo {
+    display:flex;
+    flex-direction: column;
     margin: 0 auto;
     height: 100vh;
 }
 .content {
     display: flex;
+    position:relative;
+    flex-grow: 1;
 }
 .cuerpo-principal{
     width: calc(100% * 2 / 3);
@@ -22,6 +26,7 @@
     }
     .cuerpo-principal {
         width: 100%;
+        height: 100%;
     }
     .sidebar {
         width: 100%;
@@ -60,27 +65,29 @@ h1, footer {
 
 footer {
     text-align: center;
+    position: relative;
+    margin-top: auto;
 }
 @media all and (min-width: 500px){
-    body {
+    .cuerpo {
         max-width: 480px;
     }
 }
 
 @media all and (min-width: 800px){
-    body {
+    .cuerpo {
         max-width: 740px;
     }
 }
 
 @media all and (min-width: 1000px){
-    body {
+    .cuerpo {
         max-width: 940px;
     }
 }
 
 @media all and (min-width: 1300px){
-    body {
+    .cuerpo {
         max-width: 1200px;
 
     }
