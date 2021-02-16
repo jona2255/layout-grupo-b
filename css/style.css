@@ -1,5 +1,23 @@
 * {
     box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+header, footer {
+    background-color: #2d3142;
+}
+
+section {
+    background-color: #d8d5db;
+}
+
+section:last-of-type {
+    background-color: #adacb5;
+}
+
+h1, footer {
+    color: white;
 }
 
 @media all and (min-width: 1300px){
