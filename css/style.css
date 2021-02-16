@@ -38,6 +38,7 @@ header, section, footer {
 
 header, footer {
     background-color: #2d3142;
+    height: 100px;
 }
 
 section ul {
@@ -60,28 +61,28 @@ h1, footer {
 footer {
     text-align: center;
 }
-
-@media all and (min-width: 1300px){
-    .cuerpo {
-        max-width: 1200px;
+@media all and (min-width: 500px){
+    body {
+        max-width: 480px;
     }
 }
 
-@media all and (min-width: 1000px) and (max-width: 1299px){
-    .cuerpo {
-        max-width: 940px;
-    }
-}
-
-@media all and (min-width: 800px) and (max-width: 999px){
-    .cuerpo {
+@media all and (min-width: 800px){
+    body {
         max-width: 740px;
     }
 }
 
-@media all and (min-width: 500px) and (max-width: 799px){
-    .cuerpo {
-        max-width: 480px;
+@media all and (min-width: 1000px){
+    body {
+        max-width: 940px;
+    }
+}
+
+@media all and (min-width: 1300px){
+    body {
+        max-width: 1200px;
+
     }
 }
 
